@@ -1,0 +1,28 @@
+# Crie um algoritmo que crie e leia um vetor com 6 posições e a partir disso faça: 
+# -  percorra cada elemento do vetor fazendo:
+# -  se for um valor negativo, mostre o módulo (valor sem sinal) do valor; 
+# -  se for um valor maior do que 10, solicite outro valor e mostre a diferença entre eles;
+# -  Caso o valor não seja de nenhuma condição anterior, mostre o valor dividido por 5.
+
+vet = [0]*6
+i = 0
+diferenca = 0
+
+for i in range (0,6,1):
+    vet[i] = int(input(f"Informe um número da posição {i+1}: "))
+
+    if vet[i] < 0:
+        vet[i] = vet[i] * -1
+        print (f"O módulo desse número é: {vet[i]}")
+
+    elif vet[i] > 10: 
+        diferenca = int(input("Insira outro valor: "))
+        vet[i] -= diferenca 
+        print(f"A diferença é: {vet[i]}")
+
+    elif 0 < vet[i] < 10: 
+        vet[i] = vet[i] / 5
+        print(f"Esse número dividido por 5 é: {vet[i]}")
+
+for i in range (0,6,1):
+    print (f"[{vet[i]}]", end= ' ')
