@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1719424127 source:c:\users\lucas\onedrive\documentos\vtpresexercicios\revisao2bimestre\ex9\main.cpp
+	<iostream>
+	<locale>
+	<cstring>
+
