@@ -1,6 +1,0 @@
-letra = "Sim"
-
-while letra == "Sim":
-    print("Rodando comando While em Python")
-    print()
-    letra = input("Deseja continuar ? Sim/Não: ")
