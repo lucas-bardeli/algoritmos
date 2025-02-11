@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1719496603 source:c:\users\lucas\onedrive\documentos\vtpres\vtpresexercicios\revisao2bimestre\ex13\main.cpp
-	<iostream>
-	<locale>
-	<cstring>
-	<fstream>
-

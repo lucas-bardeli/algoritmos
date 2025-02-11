@@ -1,2 +1,0 @@
-O IMC do(a) cliente Lucas é: 20.4529
-O IMC do(a) cliente Lucas é: 27.7778
