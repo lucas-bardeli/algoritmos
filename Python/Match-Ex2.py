@@ -1,21 +1,32 @@
-n1 = n2 = soma = sub = mult = 0
+
+n1 = n2 = soma = sub = mult = opc = 0
 div = 0.0
 
-n1 = float(input("Digite o primeiro número: "))
+n1 = float(input("\nDigite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
 
-opc = input("Escolha a opção: ")
+print("\nEscolha a opção: ")
+print("1 - Somar os números;")
+print("2 - Subtrair os números;")
+print("3 - Multiplicar os números;")
+print("4 - Dividir os números.")
+opc = int(input("-> "))
 
+print()
 match opc: 
-    case "a":
+    case 1:
         soma = n1 + n2
         print(f"A soma é: {soma}")
-    case "b":
+        print()
+    case 2:
         sub = n1 - n2
         print(f"A subtração é: {sub}")
-    case "c":
+        print()
+    case 3:
         mult = n1 * n2
         print(f"A multiplicação é: {mult}")
-    case "d":
+        print()
+    case 4:
         div = n1 / n2
         print(f"A divisão é: {div}")
+        print()

@@ -13,28 +13,30 @@ continuar = nome = sexo = saude = ""
 
 continuar = "S"
 
-while(continuar.upper() == "S"):
-    nome = input("Informe o nome: ")
+while (continuar.upper() == "S"):
+    nome = input("\nInforme o nome: ")
     sexo = input("Informe o sexo M-Masculino | F-Feminino: ")
     idade = int(input("Informe a idade: "))
-    saude = input("Informe a saúde B-Bom | R-Ruim: ")
+    saude = input("Informe a saúde B-Boa | R-Ruim: ")
     
     if (idade >= 18):
         if (saude.upper() == "B"):
             if (sexo.upper() == "M"):
-                print(f"O candidato {nome}, é apto!")
+                print(f"\nO candidato {nome}, é apto!")
                 total_aptos = total_aptos + 1
             else:
-                print(f"O candidato {nome} não é apto pois não é do sexo masculino!")
+                print(f"\nO candidato {nome} não é apto pois não é do sexo masculino!")
                 total_nao_aptos = total_nao_aptos + 1
         else:
-            print(f"O candidato {nome} não é apto pois possui saúde ruim!")
+            print(f"\nO candidato {nome} não é apto pois possui saúde ruim!")
             total_nao_aptos = total_nao_aptos + 1
     else:
-        print(f"O candidato {nome} não é apto pois não possui 18 anos!")
+        print(f"\nO candidato {nome} não é apto pois não possui 18 anos!")
         total_nao_aptos = total_nao_aptos + 1
     
-    continuar = input("Deseja informar os dados de outro candidato? S-Sim | N-Não: ")
+    continuar = input("\nDeseja informar os dados de outro candidato? S-Sim | N-Não: ")
 
+print()
 print(f"O total de aptos é: {total_aptos}")
 print(f"O total de não aptos é: {total_nao_aptos}")
+print()

@@ -1,5 +1,11 @@
+
 opc = "Sim"
 
 while opc == "Sim":
+    print()
     print("Rodando comando While em Python")
-    opc = input("Deseja continuar ? Sim/Não: ")
+    print("Deseja continuar?")
+    print("Sim ou Não")
+    opc = input("-> ")
+
+print()

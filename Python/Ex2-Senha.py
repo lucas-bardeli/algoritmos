@@ -2,7 +2,7 @@
 senha1 = senha2 = ""
 i = 0
 
-senha1 = input("Crie sua senha: ")
+senha1 = input("\nCrie sua senha: ")
 
 for i in range (0,3,1):
     senha2 = input("\nDigite sua senha: ")

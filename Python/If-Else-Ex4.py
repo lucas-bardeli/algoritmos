@@ -12,7 +12,7 @@
 nome = categoria = ""
 idade = 0
 
-nome = input("Digite o nome do nadador: ")
+nome = input("\nDigite o nome do nadador: ")
 idade = int(input("Digite a idade do nadador: "))
 
 if ((idade >= 5) and (idade <= 7)):
@@ -32,6 +32,8 @@ else:
                 else:
                     categoria = "O nadador não possui uma categoria válida para a sua idade."
 
+print()
 print(f"O nome do nadador é: {nome}")
 print(f"A idade do nadador é: {idade}")
 print(categoria)
+print()

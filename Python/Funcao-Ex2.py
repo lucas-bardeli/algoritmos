@@ -6,8 +6,9 @@ def somar_numeros(numero1, numero2):
     print(f"O resultado da soma é: {resultado}")
 
 
-n1 = int(input("Informe o primeiro número: "))
+n1 = int(input("\nInforme o primeiro número: "))
 n2 = int(input("Informe o segundo número: "))
 
 # Chamando a função:
 somar_numeros(n1, n2)
+print()

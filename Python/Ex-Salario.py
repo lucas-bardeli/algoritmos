@@ -4,10 +4,12 @@
 
 salario = salario_final = imposto = 0.0
 
-salario = float(input("Informe o salário do funcionário: R$ "))
+salario = float(input("\nInforme o salário do funcionário: R$ "))
 
-impostoto = salario * (10/100)
+imposto = salario * (10/100)
 
 salario_final = salario + 50 - imposto
 
+print()
 print(f"O salário final é: R$ {salario_final}")
+print()

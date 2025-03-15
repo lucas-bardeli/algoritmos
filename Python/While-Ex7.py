@@ -13,14 +13,14 @@ salario = soma_salario = 0.0
 media_salario = media_filho = 0.0
 perc_100 = maior_salario = 0.0
 
-while(opc == 1):
-    print("Escolha uma opção:")
+while (opc == 1):
+    print("\nEscolha uma opção:")
     print("1 - para cadastrar")
     print("2 - para sair")
-    opc = int(input())
+    opc = int(input("-> "))
     
-    if(opc == 1):
-        salario = float(input("Informe o salário: "))
+    if (opc == 1):
+        salario = float(input("\nInforme o salário: "))
         filho = int(input("Informe o número de filhos: "))
 
         soma_salario = soma_salario + salario
@@ -37,7 +37,9 @@ media_salario = soma_salario / qtd_cadastro
 media_filho = total_filho / qtd_cadastro
 perc_100 = salario_100 / qtd_cadastro * 100
 
+print()
 print(f"A média de salários é: {media_salario}")
 print(f"A média de filhos é: {media_filho}")
 print(f"O maior salário é: {maior_salario}")
-print(f"{perc_100} % recebem até R$ 100,00")
+print(f"{perc_100}% recebem até R$ 100,00")
+print()

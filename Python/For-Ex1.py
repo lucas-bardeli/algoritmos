@@ -7,3 +7,5 @@ print()
 
 for contador in range (0, 11, 1):
     print(f"{num} x {contador} = {num * contador}")
+    
+print()

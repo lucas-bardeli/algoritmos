@@ -3,8 +3,9 @@
 
 # Função chamada mostrar_mensagem:
 def mostrar_mensagem():
-    print("Trabalhando com função!")
+    print("\nTrabalhando com função!")
 
 
 # Chamando a função:
 mostrar_mensagem()
+print()

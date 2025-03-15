@@ -7,15 +7,19 @@
 
 agua = 0
 
-agua = int(input("Digite a quantidade de pontos de água encontrado: "))
+agua = int(input("\nDigite a quantidade de pontos de água encontrado: "))
 
-if (agua <= 10):
-    print(f"O solo é rochoso!!!")
+if (agua >= 0) and (agua <= 10):
+    print("\nO solo é rochoso!")
+    print()
 else:
     if ((agua > 10) and (agua <= 40)):
-        print(f"O solo é firme!")
+        print("\nO solo é firme!")
+        print()
     else:
-        if ((agua > 40) and (agua <=80)):
-            print(f"O solo é pantanoso!")
+        if ((agua > 40) and (agua <= 80)):
+            print("\nO solo é pantanoso!")
+            print()
         else:
-            print(f"Quantidade de água inválida!")
+            print("\nQuantidade de água inválida!")
+            print()

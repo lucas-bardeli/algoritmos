@@ -3,22 +3,25 @@
 # caso não seja, solicita outro valor até ser fornecido um valor positivo.
 
 def sequencia(n):
-    aux1 = 2.0
-    aux2 = 3.0
+    primeiro_num = 2.0
+    segundo_num = 3.0
     soma = 0
 
-    while aux1 <= n:
-        print (aux1,"/", aux2, "=", (aux1/aux2))
-        soma = soma + aux1/aux2
-        aux1 = aux1 + 1
-        aux2 = aux2 + 2
+    print()
+    while primeiro_num <= n:
+        print(primeiro_num, "/", segundo_num, "=", (primeiro_num / segundo_num))
+        soma = soma + (primeiro_num / segundo_num)
+        primeiro_num = primeiro_num + 1
+        segundo_num = segundo_num + 2
 
     return soma
 
-num = int(input("Digite um número: "))
+n = int(input("\nDigite um número: "))
 
-while num < 0:
-    num = input("Digite um número positivo: ")
+while n < 0:
+    n = input("Digite um número positivo: ")
 
-resposta = sequencia(num)
+resposta = sequencia(n)
+print()
 print (f"A soma foi: {resposta}")
+print()

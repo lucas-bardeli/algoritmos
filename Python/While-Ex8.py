@@ -21,18 +21,19 @@ c1 = c2 = c3 = c_vencedor = 0
 brancos = eleitores = nulos = voto = 0
 nome_c1 = nome_c2 = nome_c3 = nome_vencedor = ""
 
-print("Os candidatos são: 1, 2 e 3:")
+print("\nOs candidatos são: 1, 2 e 3:")
 nome_c1 = input("Informe o nome do candidato de código 1: ")
 nome_c2 = input("Informe o nome do candidato de código 2: ")
 nome_c3 = input("Informe o nome do candidato de código 3: ")
 
+print("\n---------------------------------")
 print("Para votar em branco digite: 0")
 print("Para votar em nulo digite: 4")
 print("Para sair do programa digite: -1")
-print("--------------------------------")
+print("---------------------------------")
 
-while(voto != -1):
-    voto = int(input("Informe o seu voto: "))
+while (voto != -1):
+    voto = int(input("\nInforme o seu voto: "))
     if ((voto >= 0) and (voto <= 4)):
         if (voto == 0):
             brancos = brancos + 1 
@@ -50,7 +51,7 @@ while(voto != -1):
             eleitores = eleitores + 1
     else:
         if (voto != -1):
-            print("Candidato inválido!")
+            print("\nCandidato inválido!")
 
 if ((c1 > c2) and (c1 > c3)):
     c_vencedor = 1
@@ -79,8 +80,11 @@ else:
                         c_vencedor = 0
                         nome_vencedor = "Ocorreu um empate entre os candidatos 1 e 3!"
 
-print("------------------------------")
-print(f"Candidato vencedor: Código: {c_vencedor} Nome: {nome_vencedor}")
+print()
+print("---------------------------------------------------------------")
+print(f"Candidato vencedor: Código: {c_vencedor}. Nome: {nome_vencedor}")
 print(f"Votos brancos: {brancos}")
 print(f"Votos nulos: {nulos}")
 print(f"Número de eleitores: {eleitores}")
+print("---------------------------------------------------------------")
+print()

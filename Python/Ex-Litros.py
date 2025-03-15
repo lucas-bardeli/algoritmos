@@ -6,14 +6,16 @@
 
 litros = km_l = velocidade = tempo = distancia = 0.0
 
-tempo = float(input("Infomre a quantidade de tempo gasto (horas): "))
+tempo = float(input("\nInforme a quantidade de tempo gasto (horas): "))
 km_l = float(input("Informe a quantidade de kilometros por litro que o carro faz: "))
 velocidade = float(input("Informe a velocidade média da viagem (km/h): "))
 
 distancia = velocidade * tempo
 litros = distancia / km_l
 
+print()
 print(f"A velocidade média(km/h) foi de: {velocidade}")
 print(f"O tempo(h) gasto foi de: {tempo}")
 print(f"A distância percorrida(km) foi de: {distancia}")
 print(f"E a quantidade de litros utilizados foi de: {litros}")
+print()

@@ -11,6 +11,7 @@ idade_media = 0.0
 sexo = ""
 qtd_mulheres = qtd_maiores = 0
 
+print()
 for contador in range(0,20,1):
     idade = int(input("Digite a idade: "))
     sexo = input("Digite o sexo (M ou F): ")
@@ -27,7 +28,9 @@ for contador in range(0,20,1):
 
 idade_media = soma_idades / 20
 
+print()
 print("A turma está lotada.")
 print(f"A média de idade dos inscritos é: {idade_media}")
 print(f"A quantidade de mulheres inscritas é: {qtd_mulheres}")
 print(f"A quantidade de alunos maiores de idade é: {qtd_maiores}")
+print()
