@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/LucasBardeli/Algoritmos/meet"
+	"github.com/lucas-bardeli/algoritmos/meet"
 )
 
 func main() {

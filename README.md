@@ -8,19 +8,33 @@ Clone o repositório ou baixe os arquivos:
 ```
 
 Python:
-* Abra os arquivos no VS Code e execute, ou no terminal escreva:
+1. É preciso ter a linguagem instalada no computador:
 
 ```bash
-  python nome_do_arquivo
+  https://www.python.org/downloads/
+```
+
+2. Abra os arquivos no VS Code e execute, ou no terminal escreva:
+
+```bash
+  python nome-do-arquivo.py
 ```
 
 Go:
-* No terminal da máquina ou do VS Code escreva:
+1. É preciso ter a linguagem instalada no computador:
 
 ```bash
-  go run nome_do_arquivo
+  https://go.dev/
 ```
 
-Lembrando que, para executar os códigos as linguagens devem estar instaladas na máquina 
-e para executar no terminal do computador você deve estar dentro da pasta na qual o arquivo está
-para o comando funcionar.
+2. No terminal da máquina ou do VS Code escreva:
+
+```bash
+  go run nome-do-arquivo.go
+```
+
+Visualg:
+1. É preciso ter o Visualg instalado no computador para poder executar os algoritmos.
+
+**Para executar no terminal do computador, você deve estar dentro da pasta na qual o arquivo está,
+para o comando funcionar.**
