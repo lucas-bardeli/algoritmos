@@ -7,7 +7,7 @@ idade_media = 0.0
 
 n = int(input("\nInforme o número de pessoas: "))
 
-for contador in range(0,n,1):
+for contador in range (0, n, 1):
     idade = int(input("Informe a idade da pessoa: "))
     
     if (contador == 0):

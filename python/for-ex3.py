@@ -12,7 +12,7 @@ sexo = ""
 qtd_mulheres = qtd_maiores = 0
 
 print()
-for contador in range(0,20,1):
+for contador in range (0, 20, 1):
     idade = int(input("Digite a idade: "))
     sexo = input("Digite o sexo (M ou F): ")
     

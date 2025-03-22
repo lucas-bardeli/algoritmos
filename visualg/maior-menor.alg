@@ -13,7 +13,7 @@ Var
 // Seção de Declarações das variáveis 
 
    numero: inteiro
-   i, j: inteiro
+   i: inteiro
    maior, menor: inteiro
 
 Inicio
