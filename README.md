@@ -1,6 +1,6 @@
 
 ## Como executar:
-* Clone o repositório ou baixe os arquivos:
+* Baixe os arquivos ou clone o repositório:
 ```bash
   git clone https://github.com/lucas-bardeli/algoritmos.git
 ```
