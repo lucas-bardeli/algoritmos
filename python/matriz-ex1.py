@@ -1,3 +1,5 @@
+# Criar uma matriz 3x4 de números inteiros, solicite números para preencher 
+# essa matriz e depois mostre a mesma na tela.
 
 linha = coluna = 0
 matriz = [[0]*4, [0]*4, [0]*4]

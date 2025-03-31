@@ -16,16 +16,5 @@
   python nome-do-arquivo.py
 ```
 
-## Go:
-* É preciso ter a linguagem instalada no computador:
-```bash
-  https://go.dev/
-```
-* Preferencialmente, instale a extensão de Go no VS Code;
-* No terminal da máquina ou do VS Code escreva:
-```bash
-  go run nome-do-arquivo.go
-```
-
 ## Visualg:
-* É preciso ter o Visualg instalado no computador para poder executar os algoritmos.
+* É preciso ter o Visualg instalado no computador, ou um arquivo executável, para poder abrir os algoritmos.

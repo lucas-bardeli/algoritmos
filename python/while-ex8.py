@@ -7,10 +7,10 @@
 #   - Quem votar no número 0, está vontando em branco
 #   - Quem votar no número 4, está votando em nulo
 #   - Para sair do sistema e apresentar os resultados deve digitar -1
-#
+
 # O sistema deve solicitar o nome dos três candidatos e associá-los
 # aos seus respectivos números(1, 2 ou 3)
-#
+
 # Como resultado são apresentados os dados:
 #   a) Número e nome do candidato vencedor;
 #   b) Número de votos em branco;
